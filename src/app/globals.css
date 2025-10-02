@@ -123,4 +123,5 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-gutter: stable both-edges;
 }

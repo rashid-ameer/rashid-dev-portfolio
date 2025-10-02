@@ -1,9 +1,10 @@
-// components/header/mobile-menu.tsx
 "use client";
 
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { NAV_ITEMS } from "@/content/nav";
+import Link from "next/link";
 
 function MobileMenu() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -23,30 +24,23 @@ function MobileMenu() {
     setMobileMenuOpen(false);
   };
 
-  const navItems = [
-    { href: "#experience", label: "Experience" },
-    { href: "#projects", label: "Projects" },
-    { href: "#skills", label: "Skills" },
-    { href: "#contact", label: "Contact" },
-  ];
-
   return (
     <>
       <Button
         variant="ghost"
         size="icon"
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-        className="h-9 w-9 md:hidden relative z-50"
+        className="h-9 w-9 md:hidden relative z-50 cursor-pointer"
         aria-label="Toggle menu">
         {mobileMenuOpen ? (
-          <X className="h-5 w-5" />
+          <X className="size-5" />
         ) : (
-          <Menu className="h-5 w-5" />
+          <Menu className="size-5" />
         )}
       </Button>
 
       <div
-        className={`fixed inset-0 top-[57px] bg-background/95 backdrop-blur-md md:hidden z-40 transition-all duration-300 ease-in-out ${
+        className={`fixed left-0 right-0 top-[57px] h-[calc(100vh-57px)] bg-background backdrop-blur-md md:hidden z-40 transition-all duration-300 ease-in-out transition-discrete ${
           mobileMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
         }`}>
         <div
@@ -55,14 +49,14 @@ function MobileMenu() {
           }`}>
           <div className="container mx-auto px-6 py-12 max-w-6xl">
             <div className="flex flex-col gap-8">
-              {navItems.map((item) => (
-                <a
+              {NAV_ITEMS.map((item) => (
+                <Link
                   key={item.href}
                   href={item.href}
                   onClick={handleNavClick}
                   className="text-2xl font-medium hover:text-muted-foreground transition-colors py-3 border-b border-border/40">
                   {item.label}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
