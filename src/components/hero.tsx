@@ -7,7 +7,7 @@ import Link from "next/link";
 export function Hero() {
   return (
     <section id="hero" className="min-h-screen flex items-center px-6 pt-20">
-      <div className={"container max-w-5xl transition-all duration-1000"}>
+      <div className="container max-w-5xl">
         <div className="flex flex-col items-center md:items-start gap-12 md:gap-6">
           <div className="relative size-40 md:size-28 rounded-full overflow-hidden bg-muted flex-shrink-0">
             <Image
