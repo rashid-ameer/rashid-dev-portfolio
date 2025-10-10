@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Download, Linkedin } from "lucide-react";
-import Image from "next/image";
 import profileImage from "@/assets/profile.png";
+import Image from "next/image";
 import Link from "next/link";
 
 export function Hero() {
