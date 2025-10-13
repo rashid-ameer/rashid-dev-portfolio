@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 export type Project = {
   title: string;
   description: string;
-  image?: StaticImageData;
+  image: StaticImageData | string;
   tags: string[];
   href: string;
   repo?: string;
