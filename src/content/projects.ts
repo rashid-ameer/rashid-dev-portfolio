@@ -1,9 +1,13 @@
+import ableton from "@/assets/ableton.webp";
+import digixtra from "@/assets/digixtra.webp";
+import wildTravel from "@/assets/wild-travel.webp";
+
 export const PROJECTS = [
   {
     title: "Wild Travel",
     description:
       "A travel landing page inspired by adventure and nature. It highlights destinations, trip details, and features like offline maps, augmented reality guidance, and adventure scheduling — all in a modern, minimal layout.",
-    image: "/realtime-note-taking-web-app-ui-clean-minimal-prev.jpg",
+    image: wildTravel,
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     href: "https://wild-travel.vercel.app/",
     repo: "#",
@@ -12,7 +16,7 @@ export const PROJECTS = [
     title: "DigiXtra",
     description:
       "A simple landing page for a software company presenting its services, portfolio, and contact information in a structured, easy-to-navigate layout.",
-    image: "/stripe-subscriptions-dashboard-minimal-dark.jpg",
+    image: digixtra,
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     href: "https://digixtra.vercel.app/",
     repo: "#",
@@ -20,8 +24,8 @@ export const PROJECTS = [
   {
     title: "Ableton",
     description:
-      "A clean landing page inspired by Ableton’s official website, showcasing its music production tools, creative workflow, and product highlights with a modern layout.",
-    image: "/stripe-subscriptions-dashboard-minimal-dark.jpg",
+      "A clean landing page inspired by Ableton's official website, showcasing its music production tools, creative workflow, and product highlights with a modern layout.",
+    image: ableton,
     tags: ["HTML", "CSS", "JavaScript"],
     href: "https://ableton-tau.vercel.app/",
     repo: "#",

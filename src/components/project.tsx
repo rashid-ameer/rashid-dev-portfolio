@@ -39,11 +39,7 @@ function Project({ project, className }: Props) {
                 "aspect-[16/10] w-full overflow-hidden bg-muted relative"
               )}>
               <Image
-                src={
-                  project.image ||
-                  "/placeholder.svg?height=360&width=640&query=project%20preview" ||
-                  "/placeholder.svg"
-                }
+                src={project.image}
                 alt={project.title}
                 fill
                 sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -75,6 +71,7 @@ function Project({ project, className }: Props) {
               {project.href ? (
                 <Link
                   href={project.href}
+                  target="_blank"
                   aria-label="Visit project"
                   className="inline-flex size-8 items-center justify-center rounded-md bg-primary text-primary-foreground transition hover:opacity-90">
                   <ArrowUpRight className="size-4" aria-hidden="true" />
