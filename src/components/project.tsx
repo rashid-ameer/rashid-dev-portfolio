@@ -62,6 +62,7 @@ function Project({ project, className }: Props) {
             <div className="flex shrink-0 items-center gap-1.5">
               {project.repo ? (
                 <Link
+                  target="_blank"
                   href={project.repo}
                   aria-label="View source code"
                   className="inline-flex size-8 items-center justify-center rounded-md border bg-secondary/50 text-foreground transition hover:bg-secondary">
