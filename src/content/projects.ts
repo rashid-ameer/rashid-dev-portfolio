@@ -23,7 +23,7 @@ export const PROJECTS = [
       "A clean landing page inspired by Ableton’s official website, showcasing its music production tools, creative workflow, and product highlights with a modern layout.",
     image: "/stripe-subscriptions-dashboard-minimal-dark.jpg",
     tags: ["HTML", "CSS", "JavaScript"],
-    href: "https://vercel.com/raofficals-projects/ableton",
+    href: "https://ableton-tau.vercel.app/",
     repo: "#",
   },
   {

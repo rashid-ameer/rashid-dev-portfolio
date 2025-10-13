@@ -30,7 +30,8 @@ function Project({ project, className }: Props) {
         <Link
           href={project.href || "#"}
           aria-label={`Open ${project.title}`}
-          className="block">
+          className="block"
+          target="_blank">
           <div className="relative">
             {/* Image */}
             <div
