@@ -9,7 +9,7 @@ export const PROJECTS = [
       "A travel landing page inspired by adventure and nature. It highlights destinations, trip details, and features like offline maps, augmented reality guidance, and adventure scheduling — all in a modern, minimal layout.",
     image: wildTravel,
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    href: "https://wild-travel.vercel.app/",
+    href: "https://github.com/rashid-ameer/travel-website",
     repo: "#",
   },
   {
@@ -19,7 +19,7 @@ export const PROJECTS = [
     image: digixtra,
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     href: "https://digixtra.vercel.app/",
-    repo: "#",
+    repo: "https://github.com/rashid-ameer/digixtra",
   },
   {
     title: "Ableton",
@@ -28,7 +28,7 @@ export const PROJECTS = [
     image: ableton,
     tags: ["HTML", "CSS", "JavaScript"],
     href: "https://ableton-tau.vercel.app/",
-    repo: "#",
+    repo: "https://github.com/rashid-ameer/ableton",
   },
   {
     title: "Mercel",
