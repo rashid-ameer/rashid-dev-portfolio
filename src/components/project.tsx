@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowUpRight, Github } from "lucide-react";
@@ -8,9 +8,9 @@ import { cn } from "@/lib/utils";
 export type Project = {
   title: string;
   description: string;
-  image: string;
+  image?: StaticImageData;
   tags: string[];
-  href?: string;
+  href: string;
   repo?: string;
 };
 
@@ -39,7 +39,7 @@ function Project({ project, className }: Props) {
                 "aspect-[16/10] w-full overflow-hidden bg-muted relative"
               )}>
               <Image
-                src={project.image}
+                src={project.image || ""}
                 alt={project.title}
                 fill
                 sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -53,7 +53,7 @@ function Project({ project, className }: Props) {
           <div className="flex items-start justify-between gap-3">
             <h3 className="text-pretty text-lg font-semibold leading-tight md:text-xl">
               <Link
-                href={project.href || "#"}
+                href={project.href}
                 className="hover:underline"
                 aria-label={`Open ${project.title}`}>
                 {project.title}
