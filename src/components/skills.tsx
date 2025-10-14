@@ -2,9 +2,11 @@ import { SKILLS } from "@/content/skills";
 
 export function Skills() {
   return (
-    <section className="py-24 px-6 bg-muted/30">
+    <section className="py-24 px-6 bg-muted/30" aria-labelledby="skills">
       <div className="container max-w-4xl mx-auto transition-all duration-1000 delay-100">
-        <h2 className="text-sm uppercase tracking-wider text-muted-foreground mb-12">
+        <h2
+          id="skills"
+          className="text-sm uppercase tracking-wider text-muted-foreground mb-12">
           Skills
         </h2>
 
