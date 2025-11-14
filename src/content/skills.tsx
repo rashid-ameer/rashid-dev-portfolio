@@ -7,9 +7,9 @@ import {
   GitBranch,
   Cloud,
   Box,
-  TestTube,
   Figma,
   Globe,
+  Paperclip,
 } from "lucide-react";
 
 export const SKILLS = [
@@ -18,6 +18,7 @@ export const SKILLS = [
     skills: [
       { name: "React", icon: Layers },
       { name: "Next.js", icon: Globe },
+      { name: "Vue.js", icon: Paperclip },
       { name: "TypeScript", icon: Code2 },
       { name: "Tailwind CSS", icon: Palette },
       { name: "HTML/CSS", icon: Code2 },
@@ -41,6 +42,7 @@ export const SKILLS = [
       { name: "Docker", icon: Box },
       { name: "AWS", icon: Cloud },
       { name: "Figma", icon: Figma },
+      { name: "Prisma", icon: Database },
     ],
   },
 ];

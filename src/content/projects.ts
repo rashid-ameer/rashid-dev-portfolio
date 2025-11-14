@@ -2,6 +2,8 @@ import ableton from "@/assets/ableton.webp";
 import digixtra from "@/assets/digixtra.webp";
 import wildTravel from "@/assets/wild-travel.webp";
 import judic from "@/assets/judic.png";
+import mercel from "@/assets/mercel.jpg";
+import digitalTenant from "@/assets/digital-tenant.png";
 
 export const PROJECTS = [
   {
@@ -13,7 +15,31 @@ export const PROJECTS = [
     href: "https://www.judicapp.com",
     repo: "",
   },
-
+  {
+    title: "Digital Tenant",
+    description:
+      "A web platform for landlords, tenants, and service professionals in the US to manage leases, contracts, and property-related tasks. Landlords can create and manage rental agreements, tenants can track their leases, and service professionals handle task assignments and contract fulfillment efficiently.",
+    image: digitalTenant,
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "Zod",
+      "Axios",
+      "React Hook Form",
+      "Charts",
+    ],
+    href: "https://digitalapp.technoholicasprojects.com",
+    repo: "",
+  },
+  {
+    title: "DigiXtra",
+    description:
+      "An interactive landing page for a software company presenting its services, portfolio, and contact information in a structured, easy-to-navigate layout.",
+    image: digixtra,
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Calendly"],
+    href: "https://digixtra.vercel.app/",
+    repo: "https://github.com/rashid-ameer/digixtra",
+  },
   {
     title: "Wild Travel",
     description:
@@ -22,15 +48,6 @@ export const PROJECTS = [
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     href: "https://wild-travel.vercel.app/",
     repo: "https://github.com/rashid-ameer/travel-website",
-  },
-  {
-    title: "DigiXtra",
-    description:
-      "A simple landing page for a software company presenting its services, portfolio, and contact information in a structured, easy-to-navigate layout.",
-    image: digixtra,
-    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    href: "https://digixtra.vercel.app/",
-    repo: "https://github.com/rashid-ameer/digixtra",
   },
   {
     title: "Ableton",
@@ -45,7 +62,7 @@ export const PROJECTS = [
     title: "Mercel",
     description:
       "A minimal social app for sharing posts, comments, and likes with a clean, responsive UI.",
-    image: "/stripe-subscriptions-dashboard-minimal-dark.jpg",
+    image: mercel,
     tags: [
       "Next.js",
       "TypeScript",
@@ -55,6 +72,6 @@ export const PROJECTS = [
       "Prisma",
     ],
     href: "https://mercel-beta.vercel.app/",
-    repo: "#",
+    repo: "https://github.com/rashid-ameer/mercel",
   },
 ];
