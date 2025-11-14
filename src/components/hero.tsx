@@ -24,17 +24,17 @@ export function Hero() {
                 Rashid Ameer
               </h1>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl text-pretty">
-                Fullstack Developer passionate about building accessible,
-                pixel-perfect digital experiences. I specialize in creating
-                modern web applications with clean code and intuitive user
-                interfaces.
+                Fullstack Developer building clean, responsive web applications.
+                I develop both frontend and backend solutions, translating
+                designs into functional interfaces while optimizing performance
+                for fast, smooth user experiences.
               </p>
             </div>
 
             <div className="flex items-center gap-4 pt-2 justify-center md:justify-start">
               <Button variant="default" size="sm" asChild>
                 <a
-                  href="/Rashid%20Ameer_Mern%20Developer_Resume.pdf"
+                  href="/Rashid%20Ameer_Fullstack%20Developer_Resume.pdf"
                   download
                   className="flex items-center gap-2">
                   <Download className="h-4 w-4" />
