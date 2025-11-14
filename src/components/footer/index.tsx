@@ -23,13 +23,13 @@ export function Footer() {
             <ContactItem
               icon={Linkedin}
               label="LinkedIn"
-              value="linkedin.com/in/rashidameer"
+              value="linkedin.com/in/rashid-ameer"
               href="https://linkedin.com/in/rashid-ameer"
             />
             <ContactItem
               icon={Github}
               label="GitHub"
-              value="github.com/rashidameer"
+              value="github.com/rashid-ameer"
               href="https://github.com/rashid-ameer"
             />
           </div>
