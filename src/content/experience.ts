@@ -1,18 +1,18 @@
 export const EXPERIENCES = [
   {
-    period: "Oct 2024 — Present",
+    period: "Dec 2025 — Present",
+    title: "Javascript Developer",
+    company: "Code Graphers",
+    description:
+      "Contributed to a Hackathon Management System in Solid.js and currently building a full-scale Event Management System in Astro.js with React. Worked on an LMS platform, implemented custom filters and reusable UI components, and optimized system performance by reducing unnecessary re-renders, minimizing API calls, and implementing search debouncing.",
+    skills: ["React", "Astro.js", "Solid.js", "TypeScript", "Tailwind CSS"],
+  },
+  {
+    period: "Oct 2024 — Nov 2025",
     title: "React Frontend Developer",
     company: "Technoholic Advance Solutions",
     description:
-      "Built reusable shared layouts and UI components (Kanban boards, dashboards, location autocomplete) with Google Maps APIs, optimized search via debouncing, and delivered fully responsive designs while refactoring complex blocks to cut future dev time by 20%.",
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-  },
-  {
-    period: "Jan 2024 — Present",
-    title: "MERN Stack Developer",
-    company: "Upwork",
-    description:
-      "Delivered full-stack MERN products with secure auth, Redis caching, and AWS/Docker deployments while collaborating with global clients to ship features on time.",
-    skills: ["React", "Express", "MongoDB", "Tailwind CSS", "Docker"],
+      "Built and maintained two production-grade Property Management platforms for US-based clients. Developed core modules including Properties, Units, Lease Management, Financials, and Invoices. Built interactive dashboards, integrated REST APIs, and optimized application performance across all modules.",
+    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Zod"],
   },
 ];

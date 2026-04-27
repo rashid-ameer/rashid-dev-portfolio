@@ -24,10 +24,7 @@ export function Hero() {
                 Rashid Ameer
               </h1>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl text-pretty">
-                Fullstack Developer building clean, responsive web applications.
-                I develop both frontend and backend solutions, translating
-                designs into functional interfaces while optimizing performance
-                for fast, smooth user experiences.
+                Full Stack Developer with 1.5+ years of experience. I work with React.js and modern JavaScript frameworks to build web applications that are fast, clean, and easy to use. I have shipped real products, written my own deployments, and I know my way around both frontend and backend.
               </p>
             </div>
 
